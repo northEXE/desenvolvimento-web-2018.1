@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cáculo IMC</title>
+	<meta charset="utf-8">
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$("#imcForm").submit(function(event){
+				alert("Seu IMC é: " + parseFloat($("#altura").val()) / parseFloat($("#peso").val()) );
+				event.preventDefault();
+			});
+		});
+	</script>
+</head>
+<body>
+	<form id="imcForm">
+		<div>
+			<div>
+			<input id="altura" placeholder="Altura" type="text" name="altura"></div><br>
+			<div>
+			<input id="peso" placeholder="Peso" type="text" name="peso"></div><br>
+			<div id = "resultado">
+				<span id="result"></span>
+			</div><br>
+			<input type="submit">
+	</form>
+	</div>
+</body>
+</html>

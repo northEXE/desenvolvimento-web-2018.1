@@ -1,0 +1,37 @@
+#header{
+	font-size: 25px;
+
+}
+
+#footer{
+	font-size: 10px;
+}
+
+.container{
+	background-color: white;
+}
+
+body{
+	color: #333333;
+	font-family: "Lucida Sans Unicode", "Lucida Gande", sans-serif;
+}
+
+h1{
+	background-image: url("mirror fashion.jpg");
+	background-size: 240px; 
+	color: #FFAABA;
+}
+
+h3{
+	border-bottom: 2px solid #333333;
+}
+
+figure{
+	background-color: #F2EDED;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+figcaption{
+	font-style: italic;
+}
